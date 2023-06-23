@@ -21,11 +21,16 @@ console.log(numA == 80 || numB == 90);
 };
 
 //3. NOT(!)の条件を作成し、その処理に入るよう作ってください。比較条件は数値型の比較でお願いします。(elseの処理も作成してください)
-var num = null;
-if(!num){
-  console.log("NOTの条件と一致した処理");
-  console.log(num);
-}else{
-  console.log("NOTの条件と一致しなかった処理");
-  console.log(num);
-};
+var num = 10;
+if (num !== 20) {
+  console.log(num !== 20);
+} else {
+  console.log(num !== 20);
+}
+
+var num = 20;
+if (num !== 20) {
+  console.log(num !== 20);
+} else {
+  console.log(num !== 20);
+}
